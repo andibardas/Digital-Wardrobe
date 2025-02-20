@@ -18,7 +18,6 @@ public class ClothingItemService {
     }
 
     public ClothingItem addItem(ClothingItem clothingItem) {
-        System.out.println(clothingItem.getName());
         return clothingItemRepository.save(clothingItem);
     }
 
